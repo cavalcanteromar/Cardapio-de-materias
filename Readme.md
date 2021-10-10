@@ -59,10 +59,8 @@
 
 ## Nosso time de desenvolvedores :octocat:
 
-
 ## Figma - Esboço do Layout
 
 [Link do Figma](https://www.figma.com/file/CE8tngCblSdtEz9nOTO71z/Site?node-id=0%3A1)
 
-
-Copyright :copyright: 2021- Material Menu
+Copyright :copyright: 2021 - College-Articles
