@@ -55,7 +55,7 @@
 
 ##### Plugins
 
-<img src="https://github.com/klederson-soares/Cardapio-de-mat-rias/blob/master/badge-liveServer.png"/>
+<img src="https://github.com/cavalcanteromar/College-Articles/blob/master/liveServer-badge.png"/>
 
 ## Nosso time de desenvolvedores :octocat:
 
