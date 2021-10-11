@@ -1,0 +1,63 @@
+header {
+  width: var(--w-100);
+  height: var(--h-50p);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+header nav {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: var(--h-50p);
+}
+header nav div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+}
+header nav div:nth-child(2) {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 10px;
+}
+header nav div:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.info {
+  width: var(--w-100);
+  padding: 80px 5% 40px 5%;
+}
+.info div {
+  padding: 20px 10px;
+}
+.info div table {
+  width: 100%;
+}
+.info div td {
+  padding: 10px;
+}
+
+.hist {
+  width: var(--w-100);
+  height: var(--h-50vh);
+  background-color: var(--fourth-color);
+}
+
+.mate {
+  width: var(--w-100);
+  height: var(--h-50vh);
+  background-color: var(--fifth-color);
+}
+
+footer {
+  width: var(--w-100);
+  height: var(--h-40vh);
+  background-color: var(--sixth-color);
+}/*# sourceMappingURL=index.css.map */

@@ -38,7 +38,7 @@
 
 ## Deploy
 
-> Link do deploy da aplicação [College-Articles]()
+> Link do deploy da aplicação [College-Articles](https://cavalcanteromar.github.io/College-Articles/index.html)
 
 ## Nosso time de desenvolvedores
 

@@ -1,8 +1,11 @@
-sass/css/index.scss
-sass/css/index.css.map
+css/css_index/index.scss
+css/css_index/index.css.map
 
-sass/css_fonts/fonts.scss
-sass/css_fonts/fonts.css.map
+css/css_fonts/fonts.scss
+css/css_fonts/fonts.css.map
 
-sass/css_responsive/responsive.scss
-sass/css_responsive/responsive.css.map
+css/css_reset/reset.scss
+css/css_reset/reset.css.map
+
+css/css_responsive/responsive.scss
+css/css_responsive/responsive.css.map
