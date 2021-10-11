@@ -1,0 +1,14 @@
+:root {
+  /* Colors */
+  --primary-color: rgba(51, 106, 189, 0.9);
+  --second-color: rgba(0, 0, 0, 0);
+  --third-color: rgba(221, 221, 221, 0.15);
+  --fourth-color: rgb(240, 248, 255);
+  --fifth-color: rgb(127, 255, 212);
+  --sixth-color: rgba(45, 57, 75, 0.9);
+  /* sizes */
+  --w-100: 100%;
+  --h-50p: 50px;
+  --h-50vh: 50vh;
+  --h-40vh: 40vh;
+}
