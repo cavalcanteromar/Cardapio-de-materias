@@ -5,41 +5,106 @@ header {
   top: 0;
   left: 0;
 }
+
 header nav {
+  display: -ms-grid;
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 1fr 4fr 1fr;
-  grid-template-rows: var(--h-50p);
+  -ms-grid-columns: 1fr 4fr 1.5fr;
+      grid-template-columns: 1fr 4fr 1.5fr;
+  -ms-grid-rows: var(--h-50p);
+      grid-template-rows: var(--h-50p);
 }
+
 header nav div:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 10px 10px;
+  background-color: blue;
 }
+
+header nav div:nth-child(1) img {
+  width: 100%;
+}
+
 header nav div:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 10px 10px;
+  background-color: green;
 }
-header nav div:nth-child(3) {
+
+header nav div:nth-child(2) ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+header nav div:nth-child(2) ul li {
+  list-style-type: none;
+}
+
+header nav div:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 10px 10px;
+  background-color: red;
+  position: relative;
+}
+
+header nav div:nth-child(3) input {
+  width: 100%;
+  border: none;
+  border-radius: 50px;
+  height: 100%;
+  padding: 0 40px 0 25px;
+  outline: none;
+}
+
+header nav div:nth-child(3) i {
+  font-size: 18px;
+  position: absolute;
+  right: 25px;
 }
 
 .info {
   width: var(--w-100);
   padding: 80px 5% 40px 5%;
 }
+
 .info div {
   padding: 20px 10px;
 }
+
 .info div table {
   width: 100%;
 }
+
 .info div td {
   padding: 10px;
 }
@@ -60,4 +125,5 @@ footer {
   width: var(--w-100);
   height: var(--h-40vh);
   background-color: var(--sixth-color);
-}/*# sourceMappingURL=index.css.map */
+}
+/*# sourceMappingURL=index.css.map */
