@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="css/css_consts/constantes.css">
     <!-- fonts -->
     <link rel="stylesheet" href="css/css_fonts/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
 
 </head>
 
@@ -25,55 +27,118 @@
     <header>
         <!-- cabeçalho da página -->
         <nav>
-            <!-- Links de navegação -->
-            <div></div> <!-- A logo vai aqui -->
-            <div></div> <!-- os links aqui: Inicio, Matérias, Cursos -->
-            <div></div> <!-- Aqui vai a barra de pesquisa no site -->
+            <!-- navegação -->
+            <div>
+                <img src="" alt=""> <!-- coloque a imagem de usuário aqui -->
+            </div>
+            <div>
+                <ul>
+                    <li></li> <!-- Inicio -->
+                    <li></li> <!-- Matérias -->
+                    <li></li> <!-- Cursos -->
+                </ul>
+            </div> 
+            <div>
+                <!-- colocar input aqui com placeholder = "Buscar no site..." -->
+                <!-- colocar o icon "search" do fontawesome aqui procure como faz no site https://fontawesome.com/ -->
+            </div>
         </nav>
     </header>
 
     <section class="info">
-        <!-- Seção das informações do aluno -->
         <div>
-            <table style="text-align:left;"> Suas informações </table>
-            <table border ="0">
-                
+            <div>
+                <h3>Suas informações</h3> 
+            </div>
+            <table >    
                 <tr>
-                    <th>Unidade:</th><td>43 - Palmas - Graduação</td>
-                    <th>Habilitação:</th><td>Barcharel em Ciencia da Computação</td>
+                    <td>Unidade:</td><td>43 - Palmas - Graduação</td>
+                    <td>Habilitação:</td><td>Barcharel em Ciencia da Computação</td>
                 <tr>
                 <tr>
-                    <th>Curso:</th><td>Ciencia da Computação</td>
-                    <th>Situação:</th><td>Ativo</td>
+                    <td>Curso:</td><td>Ciencia da Computação</td>
+                    <td>Situação:</td><td>Ativo</td>
                 <tr>
-            </table> <!-- faz uma tabela com as informações do aluno -->
-        </div> <!-- as informações -->
+            </table>
+        </div>
     </section>
 
     <section class="hist">
         <!-- Seção do Histórico das matérias -->
         <div>
-            <table></table> <!-- faz uma tabela com o histórico das matérias -->
+            <div>
+                <div>
+                    <h3></h3> <!-- Coloque aqui o texto "Histórico de matérias" Olha no Figma como está! -->
+                </div>
+                <div>
+                    <span></span> <!-- colocar o "Filtrar" aqui -->
+                    <!-- coloque o icon "caret-down" aqui procure como faz no site https://fontawesome.com/ -->
+                </div>
+                <div>
+                    <!-- colocar um input com placeholder "Buscar..." -->
+                    <!-- colocar o icon "search" do fontawesome aqui procure como faz no site https://fontawesome.com/ -->
+                </div>
+            </div>
+            <table></table> <!-- faz uma tabela com o histórico das matérias sem usar o "th" só "tr" e "td" -->
         </div>
     </section>
 
     <section class="mate">
         <!-- Seção das informações das matérias -->
-        <div></div> <!-- crie cards quadrados com o portfólio das matérias -->
-        <div></div> <!-- crie cards quadrados com o portfólio das matérias -->
-        <div></div> <!-- crie cards quadrados com o portfólio das matérias -->
-        <div></div> <!-- crie cards quadrados com o portfólio das matérias -->
-        <div></div> <!-- crie cards quadrados com o portfólio das matérias -->
-        <div></div> <!-- crie cards quadrados com o portfólio das matérias -->
+        <div>
+            <div>
+                <div>
+                    <h3>Informações das matérias</h3>
+                </div>
+                <div id="divBusca">
+                    <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+            <div>
+                <div></div> <!-- Coloque aqui o texto referente ao nome da matéria, acessa o autoatendimento > Matriz curricular > seleciona o curso e pega só o nome da matéria -->
+                <div></div> <!-- Coloque aqui os "Créditos" conforme o Figma -->
+                <div></div> <!-- Coloque aqui a "Duração" conforme o Figma -->
+                <div></div> <!-- Coloque aqui a "Ementa" conforme o Figma -->
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nullam in facilisis erat, id efficitur leo. Phasellus eu consectetur nulla. 
+                        Maecenas euismod scelerisque urna et aliquet. Suspendisse malesuada orci ex, in hendrerit metus mollis in. 
+                        Donec nibh sapien, molestie posuere diam sit amet, bibendum vestibulum enim. Morbi ut vehicula magna. 
+                        Integer suscipit volutpat finibus.
+
+                        Nullam rhoncus, nisl bibendum laoreet mollis, lacus nunc tempus justo, vel placerat metus dolor nec erat. 
+                        Cras quis tempus elit. Ut rutrum, arcu at mollis congue, diam orci consequat nisi, ut suscipit nisi nisl a mauris. 
+                        Cras sed imperdiet libero. Etiam posuere lacus id nibh condimentum molestie.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+>>>>>>> 7880e02b329f8934003fdda63e7423ab3dd2bfdb
     </section>
 
     <footer>
         <!-- Rodapé -->
         <div>
             <!-- colocar nossos nomes -->
-            <div></div>
-            <div></div>
-            <div></div>
+            <div>
+                <div></div>
+                <div></div> <!-- Klederson -->
+            </div>
+            <div>
+                <div></div>
+                <div></div> <!-- Odali -->
+            </div>
+            <div>
+                <div></div>
+                <div></div> <!-- Rafael -->
+            </div>
+            <div>
+                <div></div>
+                <div></div> <!-- Romário -->
+            </div>
         </div>
     </footer>
 
