@@ -8,7 +8,7 @@
     <title> College Articles </title>
 
     <!-- css index -->
-    <link rel="stylesheet" href="css/css/index.css">
+    <link rel="stylesheet" href="css/css_index/index.css">
     <!-- css reset -->
     <link rel="stylesheet" href="css/css_reset/reset.css">
     <!-- responsive -->
@@ -17,76 +17,66 @@
     <link rel="stylesheet" href="css/css_consts/constantes.css">
     <!-- fonts -->
     <link rel="stylesheet" href="css/css_fonts/fonts.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
 
 </head>
 
 <body>
 
-    <header>        
-        <nav>            
+    <header>
+        <nav>
             <div>
-                <img src="assets/img/estudante.png" alt="Imagem de perfil do aluno" width=250 height=200>                
+                <img src="assets/img/estudante.png" alt="Imagem de perfil do aluno" width=100 height=100>
             </div>
             <div>
                 <a href=""> Inicio </a>
                 <a href=""> Matérias </a>
                 <a href=""> Curso </a>
             </div>
-            <div>                
+            <div>
                 <input type="text" placeholder="Busca no site...">
-                <i class="fas fa-search"></i>                
+                <i class="fas fa-search"></i>
             </div>
         </nav>
     </header>
 
     <section class="info">
         <!-- Seção das informações do aluno -->
-        <div>
+        <div>            
             <!-- Apague os comentários quando alterar -->
-
             <div>
-                <h3>Suas informações</h3>
-                <!-- Coloque aqui o texto "Suas informações" Olha no Figma como está! -->
+                <h3> </h3>  <!-- Coloque aqui o texto "Suas informações" Olha no Figma como está! -->
             </div>
-            <table>
-                <tr>
-                    <td>
-                        <td>
-                </tr>
-            </table>
-            <!--Não usa "th" só "tr" e "td" faz uma tabela com as informações do aluno -->
-
-        </div>
+            <table></table> <!--Não usa "th" só "tr" e "td" faz uma tabela com as informações do aluno -->            
+        </div>        
     </section>
 
-    <section class="hist">
-        <!-- Seção do Histórico das matérias -->
+    <section class="hist"> <!-- Seção do Histórico das matérias -->        
         <div>
             <div>
                 <div>
-                    <h3>Histórico de matétia</h3>
-                    <!-- Coloque aqui o texto "Histórico de matérias" Olha no Figma como está! -->
+                    <h3> Histórico de matérias </h3>
                 </div>
                 <div>
                     <span>
-                        <select id="hist-filtrar">
+                        <select>
                             <option>Exemplo</option>
                             <option>Exemplo</option>
                             <option>Exemplo</option>
                         </select>
                     </span>
+
                     <!-- colocar o "Filtrar" aqui -->
                     <!-- coloque o icon "caret-down" aqui procure como faz no site https://fontawesome.com/ -->
+
                 </div>
                 <div>
-                    <form id="hist-busca" class="hist-busca">
-                        <input id="hist-busca-imput" class="hist-busca-imput" type="text" placeholder="Busca">
-                    </form>
-                    <!-- colocar um input com placeholder "Buscar..." -->
+                    <input type="text" placeholder="Buscar">
                     <!-- colocar o icon "search" do fontawesome aqui procure como faz no site https://fontawesome.com/ -->
                 </div>
             </div>
-            <table>
+            <table> <!-- faz uma tabela com o histórico das matérias sem usar o "th" só "tr" e "td" -->
                 <tr>
                     <td>Código</td>
                     <td>Nome</td>
@@ -99,8 +89,8 @@
                     <td>0</td>
                     <td>Cursando</td>
                 </tr>
-            </table>
-            <!-- faz uma tabela com o histórico das matérias sem usar o "th" só "tr" e "td" -->
+            </table> <!-- fazer mais trs na tabela preenchendo com os dados das matérias do nosso curso na mesma quantidade que está no figma  -->
+            
         </div>
     </section>
 
