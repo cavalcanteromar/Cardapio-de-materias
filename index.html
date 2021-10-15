@@ -22,23 +22,19 @@
 
 <body>
 
-    <header>
-        <!-- cabeçalho da página -->
-        <nav>
-            <!-- navegação -->
+    <header>        
+        <nav>            
             <div>
-                <img src="" alt=""> <!-- coloque a imagem de usuário aqui -->
+                <img src="assets/img/estudante.png" alt="Imagem de perfil do aluno" width=250 height=200>                
             </div>
             <div>
-                <ul>
-                    <li></li> <!-- Inicio -->
-                    <li></li> <!-- Matérias -->
-                    <li></li> <!-- Cursos -->
-                </ul>
-            </div> 
-            <div>
-                <!-- colocar input aqui com placeholder = "Buscar no site..." -->
-                <!-- colocar o icon "search" do fontawesome aqui procure como faz no site https://fontawesome.com/ -->
+                <a href=""> Inicio </a>
+                <a href=""> Matérias </a>
+                <a href=""> Curso </a>
+            </div>
+            <div>                
+                <input type="text" placeholder="Busca no site...">
+                <i class="fas fa-search"></i>                
             </div>
         </nav>
     </header>
@@ -49,11 +45,18 @@
             <!-- Apague os comentários quando alterar -->
 
             <div>
-                <h3></h3> <!-- Coloque aqui o texto "Suas informações" Olha no Figma como está! -->
-            </div> 
-            <table></table> <!--Não usa "th" só "tr" e "td" faz uma tabela com as informações do aluno -->
+                <h3>Suas informações</h3>
+                <!-- Coloque aqui o texto "Suas informações" Olha no Figma como está! -->
+            </div>
+            <table>
+                <tr>
+                    <td>
+                        <td>
+                </tr>
+            </table>
+            <!--Não usa "th" só "tr" e "td" faz uma tabela com as informações do aluno -->
 
-        </div> 
+        </div>
     </section>
 
     <section class="hist">
@@ -61,18 +64,43 @@
         <div>
             <div>
                 <div>
-                    <h3></h3> <!-- Coloque aqui o texto "Histórico de matérias" Olha no Figma como está! -->
+                    <h3>Histórico de matétia</h3>
+                    <!-- Coloque aqui o texto "Histórico de matérias" Olha no Figma como está! -->
                 </div>
                 <div>
-                    <span></span> <!-- colocar o "Filtrar" aqui -->
+                    <span>
+                        <select id="hist-filtrar">
+                            <option>Exemplo</option>
+                            <option>Exemplo</option>
+                            <option>Exemplo</option>
+                        </select>
+                    </span>
+                    <!-- colocar o "Filtrar" aqui -->
                     <!-- coloque o icon "caret-down" aqui procure como faz no site https://fontawesome.com/ -->
                 </div>
                 <div>
+                    <form id="hist-busca" class="hist-busca">
+                        <input id="hist-busca-imput" class="hist-busca-imput" type="text" placeholder="Busca">
+                    </form>
                     <!-- colocar um input com placeholder "Buscar..." -->
                     <!-- colocar o icon "search" do fontawesome aqui procure como faz no site https://fontawesome.com/ -->
                 </div>
             </div>
-            <table></table> <!-- faz uma tabela com o histórico das matérias sem usar o "th" só "tr" e "td" -->
+            <table>
+                <tr>
+                    <td>Código</td>
+                    <td>Nome</td>
+                    <td>Créditos</td>
+                    <td>Status</td>
+                </tr>
+                <tr>
+                    <td>151103</td>
+                    <td>Atividade Complrmentares</td>
+                    <td>0</td>
+                    <td>Cursando</td>
+                </tr>
+            </table>
+            <!-- faz uma tabela com o histórico das matérias sem usar o "th" só "tr" e "td" -->
         </div>
     </section>
 
@@ -81,7 +109,8 @@
         <div>
             <div>
                 <div>
-                    <h3></h3> <!-- Coloque aqui o texto "Informações das matérias" Olha no Figma como está! -->
+                    <h3></h3>
+                    <!-- Coloque aqui o texto "Informações das matérias" Olha no Figma como está! -->
                 </div>
                 <div>
                     <!-- colocar um input com placeholder "Buscar matéria" -->
@@ -89,16 +118,21 @@
                 </div>
             </div>
             <div>
-                <div></div> <!-- Coloque aqui o texto referente ao nome da matéria, acessa o autoatendimento > Matriz curricular > seleciona o curso e pega só o nome da matéria -->
-                <div></div> <!-- Coloque aqui os "Créditos" conforme o Figma -->
-                <div></div> <!-- Coloque aqui a "Duração" conforme o Figma -->
-                <div></div> <!-- Coloque aqui a "Ementa" conforme o Figma -->
+                <div></div>
+                <!-- Coloque aqui o texto referente ao nome da matéria, acessa o autoatendimento > Matriz curricular > seleciona o curso e pega só o nome da matéria -->
+                <div></div>
+                <!-- Coloque aqui os "Créditos" conforme o Figma -->
+                <div></div>
+                <!-- Coloque aqui a "Duração" conforme o Figma -->
+                <div></div>
+                <!-- Coloque aqui a "Ementa" conforme o Figma -->
                 <div>
-                    <p></p> <!-- Coloque aqui o texto "Lorem Ipsum" com 100 words, olha no site https://www.lipsum.com/ e veja como faz! -->
+                    <p></p>
+                    <!-- Coloque aqui o texto "Lorem Ipsum" com 100 words, olha no site https://www.lipsum.com/ e veja como faz! -->
                 </div>
             </div>
         </div>
-        
+
     </section>
 
     <footer>
@@ -107,19 +141,23 @@
             <!-- colocar nossos nomes -->
             <div>
                 <div></div>
-                <div></div> <!-- Klederson -->
+                <div></div>
+                <!-- Klederson -->
             </div>
             <div>
                 <div></div>
-                <div></div> <!-- Odali -->
+                <div></div>
+                <!-- Odali -->
             </div>
             <div>
                 <div></div>
-                <div></div> <!-- Rafael -->
+                <div></div>
+                <!-- Rafael -->
             </div>
             <div>
                 <div></div>
-                <div></div> <!-- Romário -->
+                <div></div>
+                <!-- Romário -->
             </div>
         </div>
     </footer>
