@@ -17,43 +17,52 @@
     <link rel="stylesheet" href="css/css_consts/constantes.css">
     <!-- fonts -->
     <link rel="stylesheet" href="css/css_fonts/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
 
 </head>
 
 <body>
 
     <header>
-        <!-- cabeçalho da página -->
         <nav>
-            <!-- navegação -->
-            <div>
-                <img src="" alt=""> <!-- coloque a imagem de usuário aqui -->
+            <div id="image">
+                <p>
+                   <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/GeorgeHPendleton_%28cropped_3x4%29.png" alt="" />
+                   Bem vindo, George H
+                </p>
+
             </div>
             <div>
                 <ul>
-                    <li></li> <!-- Inicio -->
-                    <li></li> <!-- Matérias -->
-                    <li></li> <!-- Cursos -->
+                    <li>Inicio</li>
+                    <li>Matérias</li>
+                    <li>Cursos</li>
                 </ul>
             </div> 
-            <div>
-                <!-- colocar input aqui com placeholder = "Buscar no site..." -->
-                <!-- colocar o icon "search" do fontawesome aqui procure como faz no site https://fontawesome.com/ -->
+            <div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                <i class="fas fa-search"></i>
             </div>
         </nav>
     </header>
 
     <section class="info">
-        <!-- Seção das informações do aluno -->
         <div>
-            <!-- Apague os comentários quando alterar -->
-
             <div>
-                <h3></h3> <!-- Coloque aqui o texto "Suas informações" Olha no Figma como está! -->
-            </div> 
-            <table></table> <!--Não usa "th" só "tr" e "td" faz uma tabela com as informações do aluno -->
-
-        </div> 
+                <h3>Suas informações</h3> 
+            </div>
+            <table >    
+                <tr>
+                    <td>Unidade:</td><td>43 - Palmas - Graduação</td>
+                    <td>Habilitação:</td><td>Barcharel em Ciencia da Computação</td>
+                </tr>
+                <tr>
+                    <td>Curso:</td><td>Ciencia da Computação</td>
+                    <td>Situação:</td><td>Ativo</td>
+                </tr>
+            </table>
+        </div>
     </section>
 
     <section class="hist">
@@ -77,28 +86,72 @@
     </section>
 
     <section class="mate">
-        <!-- Seção das informações das matérias -->
         <div>
             <div>
                 <div>
-                    <h3></h3> <!-- Coloque aqui o texto "Informações das matérias" Olha no Figma como está! -->
+                    <h3>Informações das matérias</h3>
                 </div>
-                <div>
-                    <!-- colocar um input com placeholder "Buscar matéria" -->
-                    <!-- colocar o icon "search" do fontawesome aqui procure como faz no site https://fontawesome.com/ -->
-                </div>
-            </div>
-            <div>
-                <div></div> <!-- Coloque aqui o texto referente ao nome da matéria, acessa o autoatendimento > Matriz curricular > seleciona o curso e pega só o nome da matéria -->
-                <div></div> <!-- Coloque aqui os "Créditos" conforme o Figma -->
-                <div></div> <!-- Coloque aqui a "Duração" conforme o Figma -->
-                <div></div> <!-- Coloque aqui a "Ementa" conforme o Figma -->
-                <div>
-                    <p></p> <!-- Coloque aqui o texto "Lorem Ipsum" com 100 words, olha no site https://www.lipsum.com/ e veja como faz! -->
+                <div id="divBusca">
+                    <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                    <i class="fas fa-search"></i>
                 </div>
             </div>
         </div>
-        
+            <div>
+                <div>
+                    <p>LÓGICA DE PREDICADOS</p>
+                </div>
+                <div>
+                    <p>Creditos: 4</p>
+                </div>
+                <div>
+                    <p>Duração: 76 Horas</p>
+                </div>
+                <div>
+                    <p>EMENTA</p>
+                </div> 
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nullam in facilisis erat, id efficitur leo. Phasellus eu consectetur nulla. 
+                        Maecenas euismod scelerisque urna et aliquet. Suspendisse malesuada orci ex, in hendrerit metus mollis in. 
+                        Donec nibh sapien, molestie posuere diam sit amet, bibendum vestibulum enim. Morbi ut vehicula magna. 
+                        Integer suscipit volutpat finibus.
+
+                        Nullam rhoncus, nisl bibendum laoreet mollis, lacus nunc tempus justo, vel placerat metus dolor nec erat. 
+                        Cras quis tempus elit. Ut rutrum, arcu at mollis congue, diam orci consequat nisi, ut suscipit nisi nisl a mauris. 
+                        Cras sed imperdiet libero. Etiam posuere lacus id nibh condimentum molestie.
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <p>ESTRUTURAS E COMPLEXIDADE DE ALGORITMOS</p>
+                </div>
+                <div>
+                    <p>Creditos: 4</p>
+                </div>
+                <div>
+                    <p>Duração: 76 Horas</p>
+                </div>
+                <div>
+                    <p>EMENTA</p>
+                </div> 
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nullam in facilisis erat, id efficitur leo. Phasellus eu consectetur nulla. 
+                        Maecenas euismod scelerisque urna et aliquet. Suspendisse malesuada orci ex, in hendrerit metus mollis in. 
+                        Donec nibh sapien, molestie posuere diam sit amet, bibendum vestibulum enim. Morbi ut vehicula magna. 
+                        Integer suscipit volutpat finibus.
+
+                        Nullam rhoncus, nisl bibendum laoreet mollis, lacus nunc tempus justo, vel placerat metus dolor nec erat. 
+                        Cras quis tempus elit. Ut rutrum, arcu at mollis congue, diam orci consequat nisi, ut suscipit nisi nisl a mauris. 
+                        Cras sed imperdiet libero. Etiam posuere lacus id nibh condimentum molestie.
+                    </p>
+                </div>
+            </div>
     </section>
 
     <footer>
