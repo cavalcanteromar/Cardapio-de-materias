@@ -15,7 +15,7 @@ header {
     nav {
         display: grid;
         grid-auto-flow: column;
-        grid-template-columns: 1fr 4fr 1fr;
+        grid-template-columns: 1fr 4fr 1.5fr;
         grid-template-rows: var(--h-50p);
 
         div:nth-child(1) {
@@ -23,18 +23,48 @@ header {
             justify-content: center;
             align-items: center;
             padding: 10px 10px;
+
+            img {
+                width: 100%;
+            }
         }
         div:nth-child(2) {
             display: flex;
             justify-content: space-evenly;
             align-items: center;
             padding: 10px 10px;
+            
+
+            ul {
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                li {
+                    list-style-type: none;
+                }
+            }
         }
         div:nth-child(3) {
             display: flex;
             justify-content: center;
             align-items: center;
             padding: 10px 10px;
+            position: relative;
+
+            input {
+                width: 100%;
+                border: none;
+                border-radius: 50px;
+                height: 100%;
+                padding: 0 40px 0 25px;
+                outline: none;
+            }            
+
+            i {
+                font-size: 18px;
+                position: absolute;
+                right: 25px;
+            }
         }
     }
 }
