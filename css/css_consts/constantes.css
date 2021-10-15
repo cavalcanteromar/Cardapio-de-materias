@@ -1,12 +1,18 @@
 :root {
   /* Colors */
-  --primary-color: rgba(51, 106, 189, 0.9);
-  --second-color: rgba(0, 0, 0, 0);
-  --third-color: rgba(221, 221, 221, 0.15);
-  --fourth-color: rgb(240, 248, 255);
-  --fifth-color: rgb(127, 255, 212);
-  --sixth-color: rgba(45, 57, 75, 0.9);
-  --seven-color: rgb(255,255,255);
+  --primary-color: rgba(44, 87, 117, 1);
+  --second-color: rgba(35, 158, 166, 1);
+  --third-color: rgba(0, 255, 25, 1);
+  --fourth-color: rgba(36, 123, 160, 1);
+  --fifth-color: rgba(0, 0, 0, 0,25);
+  --sixth-color: rgba(232, 241, 242, 1);
+  --seven-color: rgba(27, 152, 224, 1);
+  --eighth-color: rgba(36, 123, 160, 1);
+  --ninth-color: rgba(0, 100, 148, 1);
+  --tenth-color: rgba(19, 41, 61, 1);
+  --eleventh-color: rgba(255, 255, 255, 1);
+  --twelfth-color: rgba(0, 0, 0, 1);
+  
   /* sizes */
   --w-100: 100%;
   --h-50p: 50px;
