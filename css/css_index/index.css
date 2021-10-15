@@ -27,7 +27,6 @@ header nav div:nth-child(1) {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px 10px;
-  background-color: blue;
 }
 
 header nav div:nth-child(1) img {
@@ -45,7 +44,6 @@ header nav div:nth-child(2) {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px 10px;
-  background-color: green;
 }
 
 header nav div:nth-child(2) ul {
@@ -73,7 +71,6 @@ header nav div:nth-child(3) {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px 10px;
-  background-color: red;
   position: relative;
 }
 
