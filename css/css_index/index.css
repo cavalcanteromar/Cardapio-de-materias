@@ -175,7 +175,6 @@ header nav div:nth-child(3) i {
       -ms-flex-align: center;
           align-items: center;
   width: var(--w-100);
-  border: 2px solid green;
 }
 
 .hist {
