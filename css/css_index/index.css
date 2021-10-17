@@ -1,6 +1,5 @@
 header {
   width: var(--w-100);
-  height: var(--h-50p);
   position: fixed;
   top: 0;
   left: 0;
@@ -10,10 +9,14 @@ header nav {
   display: -ms-grid;
   display: grid;
   grid-auto-flow: column;
-  -ms-grid-columns: 1fr 4fr 1.5fr;
-      grid-template-columns: 1fr 4fr 1.5fr;
-  -ms-grid-rows: var(--h-50p);
-      grid-template-rows: var(--h-50p);
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  background-color: var(--primary-color);
+  border-radius: 0 0 8px 8px;
+  -webkit-box-shadow: 0.1px 0.1px 5px 0.1px var(--primary-color);
+          box-shadow: 0.1px 0.1px 5px 0.1px var(--primary-color);
 }
 
 header nav div:nth-child(1) {
@@ -26,11 +29,41 @@ header nav div:nth-child(1) {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px 10px;
 }
 
-header nav div:nth-child(1) img {
+header nav div:nth-child(1) .img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: .1px .1px 5px .1px lightgrey;
+          box-shadow: .1px .1px 5px .1px lightgrey;
+  background-color: var(--eleventh-color);
+}
+
+header nav div:nth-child(1) .img img {
+  width: 55px;
+  height: 55px;
+}
+
+header nav div:nth-child(1) .bemvindo {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 50% 50%;
+      grid-template-rows: 50% 50%;
+  color: white;
+}
+
+header nav div:nth-child(1) .bemvindo div:first-child {
   width: 100%;
+  font-size: 12px;
+}
+
+header nav div:nth-child(1) .bemvindo div:last-child {
+  width: 100%;
+  font-size: 15px;
 }
 
 header nav div:nth-child(2) {
@@ -44,6 +77,12 @@ header nav div:nth-child(2) {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px 10px;
+}
+
+header nav div:nth-child(2) a {
+  text-decoration: none;
+  color: var(--eleventh-color);
+  font-weight: 600;
 }
 
 header nav div:nth-child(2) ul {
@@ -70,7 +109,7 @@ header nav div:nth-child(3) {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px 10px;
+  padding: 20px 5px;
   position: relative;
 }
 
@@ -78,7 +117,7 @@ header nav div:nth-child(3) input {
   width: 100%;
   border: none;
   border-radius: 50px;
-  height: 100%;
+  height: 70%;
   padding: 0 40px 0 25px;
   outline: none;
 }
