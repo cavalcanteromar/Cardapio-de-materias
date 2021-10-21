@@ -1,103 +1,88 @@
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 640px) {
   header nav {
-    height: 50px;
-    -ms-grid-columns: 1fr 2fr 1fr;
-        grid-template-columns: 1fr 2fr 1fr;
-        grid-template-areas: "div1 div2 div2" "div3 div3 div3";
+    width: 100%;
+    -ms-grid-columns: 1fr 1fr 2.5fr;
+        grid-template-columns: 1fr 1fr 2.5fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "div-1 div-1 div-2" "div-3 div-3 div-3";
+    border-radius: 0px;
+    padding: clamp(0px, 2vw, 10px) 0;
   }
-  header nav div:nth-child(1) {
+  header nav .div-1 {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
-    grid-area: div1;
-  }
-  header nav div:nth-child(2) {
-    -ms-grid-row: 1;
-    -ms-grid-column: 2;
     -ms-grid-column-span: 2;
-    grid-area: div2;
+    grid-area: div-1;
   }
-  header nav div:nth-child(3) {
+  header nav .div-1 .img div {
+    width: clamp(0px, 13vw, 50px);
+    height: clamp(0px, 13vw, 50px);
+  }
+  header nav .div-1 .img div img {
+    width: clamp(0px, 15vw, 60px);
+    height: clamp(0px, 15vw, 60px);
+  }
+  header nav .div-1 .bemvindo div:first-child {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    font-size: clamp(0px, 2.5vw, 10px);
+  }
+  header nav .div-1 .bemvindo div:last-child {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    font-size: clamp(0px, 3vw, 15px);
+  }
+  header nav .div-2 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    grid-area: div-2;
+  }
+  header nav .div-2 a {
+    font-size: clamp(0px, 3vw, 28px);
+  }
+  header nav .div-3 {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
-    grid-area: div3;
-    height: 50px;
-    padding: 1% 15%;
+    grid-area: div-3;
   }
-  header nav div:nth-child(3) input {
-    font-size: 15px;
-    padding: 0 50px 0 25px;
-    border-radius: 15px;
-    font-family: "Times New Roman", Times, serif;
+  header nav .div-3 input {
+    margin-left: 20px;
+    width: 75%;
+    height: 75%;
+    outline: none;
+    border-radius: 50px;
+    font-size: clamp(0px, 3.5vw, 17px);
   }
-  header nav div:nth-child(3) i {
-    right: 80px;
+  header nav .div-3 i {
+    font-size: clamp(0px, 4vw, 25px);
+    right: clamp(0px, 20vw, 100px);
   }
   .info {
-    padding: 120px 10px 20px 10px;
+    padding: clamp(20px, 16vw, 80px) 0;
+    background-color: red;
+    -ms-grid-columns: 2fr 1fr;
+        grid-template-columns: 2fr 1fr;
   }
-  .info div {
-    width: 100%;
+  .info div:first-child {
     padding: 10px;
+    border-radius: 0;
   }
-  .info div table {
-    width: 100%;
+  .info div:first-child div {
+    padding: 0;
   }
-  .info div table tr:first-child td {
-    font-size: 13px;
-    font-weight: bold;
-  }
-  .info div table tr:not(:first-child) td:first-child {
-    font-weight: bold;
-  }
-  .info div table,
-  .info div td {
+  .info div:first-child td {
     font-size: 12px;
+    padding: 0px 0px;
   }
-  .info div td {
-    padding: 10px 2px;
+  .info div:last-child img {
+    width: 50px;
   }
-}
-
-@media only screen and (min-width: 1201px) and (max-width: 1920px) {
-  header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  header nav {
-    width: 50%;
-  }
-  header nav div:nth-child(3) {
-    padding: 3.5% 5%;
-  }
-  header nav div:nth-child(3) input {
-    font-size: 15px;
-    padding: 0 50px 0 20px;
-    font-family: "Times New Roman", Times, serif;
-  }
-  header nav div:nth-child(3) i {
-    right: 30px;
-  }
-  .info div {
-    padding: 20px 10px;
-  }
-  .info div table {
+  .hist {
     width: 100%;
-  }
-  .info div td {
-    padding: 10px;
-  }
-  .info div tr td:first-child,
-  .info div tr td:nth-child(3) {
-    font-size: 16px;
-    font-weight: bold;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
