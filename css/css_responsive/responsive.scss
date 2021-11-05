@@ -1,10 +1,6 @@
-// Smartphones
-@media only screen and (max-width: 640px) {
+// Mobile
+@media only screen and (max-width: 576px) {
     header {
-        width: 100%;
-        height: 50px;
-        background-color: blue;
-
         nav {
             height: 50px;
             grid-template-columns: 1fr 2fr 1fr;
@@ -13,16 +9,24 @@
                 "div3 div3 div3";
             div:nth-child(1) {
                 grid-area: div1;
-                background-color: white;
             }
             div:nth-child(2) {
                 grid-area: div2;
-                background-color: white;
             }
             div:nth-child(3) {
                 grid-area: div3;
                 height: 50px;
-                background-color: white;
+                padding: 1% 15%;
+
+                input {
+                    font-size: 15px;
+                    padding: 0 50px 0 25px;
+                    border-radius: 15px;
+                    font-family: "Times New Roman", Times, serif;
+                }
+                i {
+                    right: 80px;
+                }
             }
         }
     }
@@ -61,24 +65,52 @@
     }
 }
 
+// Mobile
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+}
+
 // Tablets
-@media only screen and (min-width: 641px) and (max-width: 768px) {
+@media only screen and (min-width: 769px) and (max-width: 992px) {
 }
 
-// Tablets e Laptops
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+// Laptops
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
 }
 
-// Laptops e Desktops
-@media only screen and (min-width: 1025px) {
+// Laptops HD e FHD
+@media only screen and (min-width: 1201px) and (max-width: 1920px) {
     header {
-        padding: 0 20%;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+        nav {     
+            
+            width: 50%;       
+            div:nth-child(1) {
+            }
+            div:nth-child(2) {
+            }
+            div:nth-child(3) {
+                padding: 3.5% 5%;
+                input {
+                    font-size: 15px;
+                    padding: 0 50px 0 20px;
+                    font-family: "Times New Roman", Times, serif;
+                }
+                i {
+                    right: 30px;
+                }
+            }
+        }
     }
     .info {
-        padding: 8% 20%;
+        // padding: 8% 20%;
+
+       
 
         div {
             padding: 20px 10px;
+        
 
             table {
                 width: 100%;
@@ -97,4 +129,7 @@
             }
         }
     }
+}
+
+@media only screen and (min-width: 1921px) {
 }
